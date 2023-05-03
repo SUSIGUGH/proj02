@@ -6,7 +6,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
 	  res.statusCode = 200;
 	  res.setHeader('Content-Type', 'text/plain');
-	  res.end('<h1> Welcome to Jaamun.com SuSi</h1>');
+	  res.end('Welcome to Jaamun.com SuSi');
 });
 
 server.listen(port, hostname, () => {
